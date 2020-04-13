@@ -2,6 +2,7 @@ import time
 import random
 import RPi.GPIO as GPIO
 
+
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(11,GPIO.OUT)  # Set up GPIO pins as outputs
 GPIO.setup(12,GPIO.OUT)
