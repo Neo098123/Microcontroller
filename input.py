@@ -10,7 +10,8 @@ def getch():
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return ch
- 
+
+
 button_delay = 0
  
 while True:

@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 import sys, termios, tty, os, time
- 
+
+
 def getch():
     fd = sys.stdin.fileno()
     old_settings = termios.tcgetattr(fd)
